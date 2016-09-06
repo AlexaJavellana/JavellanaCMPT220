@@ -19,7 +19,6 @@ public class PercentageProgram {
     int hwlabs = input.nextInt();
 
     int fgrade;
-
     fgrade = ( midterm + exam + projects + hwlabs ) / 4;
 
     System.out.println("Your final grade is: " + fgrade + "%");
