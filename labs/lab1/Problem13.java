@@ -1,5 +1,6 @@
 public class Problem13 {
   public static void main(String[] args) {
+
   System.out.println();
 
   System.out.println("     J     A    V     V    A");
@@ -8,5 +9,6 @@ public class Problem13 {
   System.out.println(" J  J   A     A    V    A     A");
 
   System.out.println();
+
   }
 }
