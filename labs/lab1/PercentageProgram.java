@@ -1,23 +1,27 @@
+import java.util.Scanner;
+
 public class PercentageProgram {
   public static void main(String[] args) {
-  double midterm;
-  double exam;
-  double projects;
-  double hwlabs;
-  double fgrade;
+  Scanner input = new Scanner(System.in);
 
-  midterm = 90;
-  exam = 100;
-  projects = 90;
-  hwlabs = 80;
+  System.out.println("Please enter the following scores (0-100)...");
+
+  System.out.print("Midterm Exam: ");
+  int midterm=input.nextInt();
+
+  System.out.print("Final Exam: ");
+  int exam = input.nextInt();
+
+  System.out.print("Projects: ");
+  int projects = input.nextInt();
+
+  System.out.print("Homework and Labs: ");
+  int hwlabs = input.nextInt();
+
+  int fgrade;
 
   fgrade = ( midterm + exam + projects + hwlabs ) / 4;
 
-  System.out.println("Please enter the following as a percentage...");
-  System.out.println("Midterm Exam: " + midterm);
-  System.out.println("Final Exam: " + exam);
-  System.out.println("Projects: " + projects);
-  System.out.println("Homework and Labs: " + hwlabs);
   System.out.println("Your final grade is: " + fgrade + "%");
   }
 }
