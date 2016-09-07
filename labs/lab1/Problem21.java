@@ -1,3 +1,6 @@
+/* Alexa Javellana
+CMPT220 */ 
+
 import java.util.Scanner;
 
 public class Problem21 {
