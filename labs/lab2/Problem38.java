@@ -1,9 +1,14 @@
-/* Alexa Javellana
-CMPT220
-
-(Sort three integers) Write a program that prompts
-the user to enter three integers and display the
-integers in non-decreasing order.*/
+/*
+ * file: Problem38.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: September 14 2016
+ * version: 1.2
+ *
+ * This file contains problem 3.8, which asks for a program that takes three
+ * integers and puts them in increasing order. 
+ */
 
 import java.util.Scanner;
 

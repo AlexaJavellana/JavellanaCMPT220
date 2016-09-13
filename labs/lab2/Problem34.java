@@ -1,10 +1,15 @@
-/* Alexa Javellana
-CMPT220
-
-(Random month) Write a program that randomly generates an
-integer between 1 and 12 and displays the English month
-name January, February, ..., December for the number
-1, 2, ..., 12, accordingly. */
+/*
+ * file: Problem34.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: September 14 2016
+ * version: 1.2
+ *
+ * This file contains problem 3.4, which asks for a program that when a
+ * random number for 1-12 is generated, the appropriate month according
+ * to the value is then presented. 
+ */
 
 public class Problem34 {
   public static void main(String[] args) {

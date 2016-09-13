@@ -1,3 +1,15 @@
+/*
+ * file: Problem45.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: September 14 2016
+ * version: 1.2
+ *
+ * This file contains problem 4.5, which prompts the user to enter the number
+ * of sides and length of the sides of a polygon to determine area.
+ */
+
 import java.util.Scanner;
 
 public class Problem45 {

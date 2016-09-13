@@ -1,3 +1,16 @@
+/*
+ * file: Problem425.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: September 14 2016
+ * version: 1.2
+ *
+ * This file contains problem 4.25, which asks for a program that randomly
+ * generates a license plate number with three random letters and four
+ * random digits.
+ */
+
 public class Problem425 {
   public static void main (String[] args) {
 
