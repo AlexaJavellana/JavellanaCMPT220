@@ -30,7 +30,7 @@ public class Problem315 {
   int guessDigit2 = (guess / 100) / 10;
   int guessDigit3 = guess % 10;
 
-  System.out.println("The lottery number is " + lottery);
+  System.out.println("The lottery number is " + lotteryDigit1 + lotteryDigit2 + lotteryDigit3);
 
   if (guess == lottery)
     System.out.println("Exact match! You win $10,000");
