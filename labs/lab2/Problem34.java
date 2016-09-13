@@ -8,7 +8,7 @@
  *
  * This file contains problem 3.4, which asks for a program that when a
  * random number for 1-12 is generated, the appropriate month according
- * to the value is then presented. 
+ * to the value is then presented.
  */
 
 public class Problem34 {
@@ -42,5 +42,6 @@ public class Problem34 {
   } else if(randomNumber == 12) {
       System.out.println("December");
   }
+  
   }
 }
