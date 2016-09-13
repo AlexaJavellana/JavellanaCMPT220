@@ -1,18 +1,15 @@
-/* Alexa Javellana
-CMPT220
-
-Revise Listing 3.8, Lottery.java, to generate a lottery
-of a three-digit number. The program prompts the user
-to enter a three-digit number and determines whether the
-user wins according to the following rules:
-1. If the user input matches the lottery number in the exact order,
-the award is $10,000.
-2. If all digits in the user input match all digits in the lottery
-number,the award is $3,000.
-3. If one digit in the user input matches a digit in the lottery
-number, the award is $1,000. */
-
-//We'll come back to this later
+/*
+ * file: Problem315.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: September 14 2016
+ * version: 1.2
+ *
+ * This file contains problem 3.15, which asks to revisit the lottery problem
+ * earlier in the chapter and instead of two digits being selected, three
+ * digits will be selected and entered in the lottery.
+ */
 
 import java.util.Scanner;
 

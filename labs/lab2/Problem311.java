@@ -1,12 +1,15 @@
-/* Alexa Javellana
-CMPT220
-
-Write a program that prompts the user to enter the
-month and year and displays the number of days in the
-month. For example, if the user entered month 2 and year
-2012, the program should display that February 2012 had
-29 days. If the user entered month 3 and year 2015, the
-program should display that March 2015 had 31 days. */
+/*
+ * file: Problem311.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 2
+ * due date: September 14 2016
+ * version: 1.2
+ *
+ * This file contains problem 3.11, which asks for a program that when given
+ * integers for month and year, the amount of days that had/will occur during
+ * that month will be given.
+ */
 
 import java.util.Scanner;
 
