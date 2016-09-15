@@ -50,7 +50,7 @@ public class Problem315 {
         || guessDigit3 == lotteryDigit2
         || guessDigit3 == lotteryDigit3)
     System.out.println("You have matched one digit! You win $1,000");
-  else
+  else 
     System.out.println("Sorry, no match");
 
   }

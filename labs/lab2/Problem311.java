@@ -25,22 +25,6 @@ public class Problem311 {
   String monthName;
 
   switch (month) {
-  case 2:
-    if((year % 4 == 0 && year % 100 != 0) || (year % 100 == 0)) {
-    days = 29;
-    break;
-    }
-    days = 28;
-    break;
-
-  case 4:
-  case 6:
-  case 9:
-  case 11:
-    days = 30;
-  }
-
-  switch (month) {
   case 1:
     monthName = "January";
     break;
@@ -81,6 +65,22 @@ public class Problem311 {
     monthName = "Please enter another number";
     days = 0;
     break;
+  }
+
+  switch (month) {
+  case 2:
+    if((year % 4 == 0 && year % 100 != 0) || (year % 100 == 0)) {
+    days = 29;
+    break;
+    }
+    days = 28;
+    break;
+
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    days = 30;
   }
 
   System.out.println(monthName + " " + year + " had/will have " + days + " days");
