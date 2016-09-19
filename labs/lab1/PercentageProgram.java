@@ -1,6 +1,6 @@
 /* Alexa Javellana
 CMPT220 */ 
-
+// == the header has a specific format
 import java.util.Scanner;
 
 public class PercentageProgram {

@@ -1,9 +1,10 @@
 /* Alexa Javellana
 CMPT220 */ 
+// == the header has a specific format
 
 public class Problem13 {
   public static void main(String[] args) {
-
+    // == the following lines are incorrectly indented
   System.out.println();
 
   System.out.println("     J     A    V     V    A");

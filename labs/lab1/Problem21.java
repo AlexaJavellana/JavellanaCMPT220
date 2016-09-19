@@ -1,10 +1,12 @@
 /* Alexa Javellana
 CMPT220 */ 
+// == the header has a specific format
 
 import java.util.Scanner;
 
 public class Problem21 {
   public static void main(String[] args) {
+    // == the following line is incorrectly indented
   Scanner input = new Scanner(System.in);
 
     System.out.print("Enter degrees in celsius to convert into farenheit. ");
