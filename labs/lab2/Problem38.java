@@ -7,7 +7,7 @@
  * version: 1.2
  *
  * This file contains problem 3.8, which asks for a program that takes three
- * integers and puts them in increasing order. 
+ * integers and puts them in increasing order.
  */
 
 import java.util.Scanner;

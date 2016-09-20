@@ -7,7 +7,7 @@
  * version: 1.2
  *
  * This file contains problem 4.8, which prompts the user to enter a ASCII
- * code and in return delivers the corresponding character. 
+ * code and in return delivers the corresponding character.
  */
 
 import java.util.Scanner;

@@ -8,7 +8,7 @@
  *
  * This file contains problem 4.15, which asks for a program that, in
  * correspondance to a phone number pad, when a letter is entered, the
- * associated number will be given. 
+ * associated number will be given.
  */
 
 import java.util.Scanner;
@@ -20,8 +20,8 @@ public class Problem415 {
   Scanner input = new Scanner(System.in);
   String letter = input.next();
 
-  char pad = letter.charAt(0);
   int number;
+  char pad = letter.charAt(0);
 
   switch (pad) {
   case 'a':
@@ -80,9 +80,9 @@ public class Problem415 {
   }
 
   if (number != 0)
-    System.out.println("The corresponding number is " + number);
+    System.out.println(letter + " on a number pad is " + number);
   else
-    System.out.println(pad + " is an invalid input");
+    System.out.println(pad + " is incorrect. Please try again");
 
   }
 }
