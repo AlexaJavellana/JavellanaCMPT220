@@ -85,6 +85,5 @@ public class Problem311 {
 
   System.out.println(monthName + " " + year + " had/will have " + days + " days");
 
-
   }
 }
