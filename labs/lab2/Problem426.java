@@ -17,7 +17,7 @@ public class Problem426 {
   public static void main (String[] args) {
   Scanner input = new Scanner(System.in);
 
-  System.out.print("Enter a total in double, for example 11.56: ");
+  System.out.print("Enter a total, like 5.67, 8,99, etc.: ");
     String total = input.next();
     int totalSingles = Integer.parseInt(total.substring(0, total.indexOf('.')));
     int remainingTotal = Integer.parseInt(total.substring(total.indexOf('.')+1));
