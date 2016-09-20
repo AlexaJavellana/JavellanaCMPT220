@@ -1,5 +1,5 @@
 /* Alexa Javellana
-CMPT220 */ 
+CMPT220 */
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ public class PercentageProgram {
     int hwlabs = input.nextInt();
 
     int fgrade;
-    fgrade = ( midterm + exam + projects + hwlabs ) / 4;
+    fgrade = (midterm * 0.2) + (exam * 0.2) + (projects * 0.2) + (hwlabs * 0.4);
 
     System.out.println("Your final grade is: " + fgrade + "%");
   }
