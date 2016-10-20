@@ -1,3 +1,14 @@
+/*
+ * file: Problem913.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 6
+ * due date: October 20 2016
+ * version: 1.0
+ *
+ * This file contains problem 9.13
+ */
+
 import java.util.Scanner;
 
 public class Problem913 {
