@@ -6,7 +6,7 @@
  * due date: October 27 2016
  * version: 1.0
  *
- * This file contains problem 10.1, which asks to rewrite the BMI class and add a 
+ * This file contains problem 10.2, which asks to rewrite the BMI class and add a 
  * constructor that treats height as two variables instead of one, the two being 
  * feet and inches 
  */
