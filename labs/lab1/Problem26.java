@@ -1,14 +1,20 @@
-/* Alexa Javellana
-CMPT220 */
-// == the header has a specific format
+/*
+ * file: Problem26.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 1
+ * due date: September 7, 2016
+ * version: 1.2
+ *
+ * This file contains problem 2.6
+ */
 
 import java.util.Scanner;
 
 public class Problem26 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    // == the following lines are incorrectly indented
-      System.out.println("Enter a number between 0 and 1000 :");
+    System.out.println("Enter a number between 0 and 1000 :");
       int number = input.nextInt();
 
       int ones = number % 10;
@@ -17,6 +23,6 @@ public class Problem26 {
 
       int sum = ones + tens + hundreds;
 
-      System.out.println("The sum of the digits is " + sum);
+    System.out.println("The sum of the digits is " + sum);
   }
 }

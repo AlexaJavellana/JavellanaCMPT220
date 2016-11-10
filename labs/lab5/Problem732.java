@@ -1,3 +1,15 @@
+/*
+ * file: Problem91.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 5
+ * due date: --
+ * version: 1.0
+ *
+ * This file contains problem 7.32
+ */
+
+
 import java.util.Scanner;
 
 public class Problem732 {

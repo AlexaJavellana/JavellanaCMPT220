@@ -1,11 +1,14 @@
-/* Alexa Javellana
-<<<<<<< HEAD
-CMPT220 */
+/*
+ * file: PercentageProgram.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: lab 1
+ * due date: September 7, 2016
+ * version: 1.2
+ *
+ * This file contains problem 2.6
+ */
 
-=======
-CMPT220 */ 
-// == the header has a specific format
->>>>>>> ce07c204c49654926b259cfca730d494dd564af7
 import java.util.Scanner;
 
 public class PercentageProgram {
