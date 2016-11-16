@@ -15,4 +15,20 @@ Draw the UML diagram for the classes and then implement
  five strings and displays them in reverse order.
  */
 
-import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Problem1110 {
+  public static void main(String[] args) {
+
+  Scanner input = new Scanner(System.in);
+  MyStack list = new MyStack();
+
+  System.out.println("Enter 5 strings to be displayed in reverse order: ");
+
+  for (int i = 0; i < 5; i++)
+    list.push(input.next()); 
+  
+  while (list.size() > 0)  
+  System.out.print(list.pop() + " ");
+  }
+}
