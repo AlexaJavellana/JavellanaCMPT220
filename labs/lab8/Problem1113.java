@@ -36,6 +36,6 @@ public class Problem1113 {
 		  }	
 			
       list.clear();
-			list.addAll(temp);
+      list.addAll(temp);
 	}
 }
