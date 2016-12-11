@@ -1,5 +1,27 @@
+/*
+ * file: RecipeRun.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: Project 2
+ * due date: December 12th 2016
+ * version: 2.0
+ *
+ * This file contains the RecipeRun class, which is the direct program run in the JVM
+ * for my project.
+ */
+
 import java.util.Scanner; 
 
+/**
+ * RecipeRun
+ * 
+ * This class contains the code that directly interacts with the user and receives 
+ * values for userMoney and isVegetarian, which is judged in the Recipe class to 
+ * return an appropriate recipe according to their userMoney value, equivocated 
+ * to mealBudget. Additionally, this class identifies invalid values for  
+ * mealBudget.
+ *
+ */
 public class RecipeRun {
 	public static void main(String[] args) {
   

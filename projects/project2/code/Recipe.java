@@ -1,3 +1,20 @@
+/*
+ * file: Recipe.java
+ * author: Alexa Javellana
+ * course: CMPT 220
+ * assignment: Project 2
+ * due date: December 12th 2016
+ * version: 2.0
+ *
+ * This file contains the Recipe class necessary to run my project file, RecipeRun.
+ */
+
+/**
+ * Recipe
+ * 
+ * This class contains the methods necessary to generate recipes in the RecipeRun
+ * program.
+ */
 public class Recipe {
 
   public double mealBudget;
@@ -10,6 +27,17 @@ public class Recipe {
     mealBudget = budget;
   }
 
+  /**
+   * showNonVRecipe
+   * 
+   * This function evaluates the given input for mealBudget if the user in the RecipeRun
+   * program responds 'yes' when asked for a string to store in the isVegetarian variable.
+   * 
+   * Parameters:
+   * mealBudget: the number that acts as the budget throughout the RecipeRun program
+   *
+   * Return value: a void command that returns a non-vegetarian appropriate recipe
+   */
   public void showNonVRecipe() {
  		if (mealBudget <= 5 && mealBudget % 2 == 0) {
  			System.out.println("Recipe: Mac N' Cheese\n\nIngredients:" +
@@ -109,6 +137,17 @@ public class Recipe {
 		return;
   }
 
+  /**
+   * showVRecipe
+   * 
+   * This function evaluates the given input for mealBudget if the user in the RecipeRun
+   * program responds 'no' when asked for a string to store in the isVegetarian variable.
+   * 
+   * Parameters:
+   * mealBudget: the number that acts as the budget throughout the RecipeRun program
+   *
+   * Return value: a void command that returns a vegetarian appropriate recipe
+   */
   public void showVRecipe() {
   	if (mealBudget <= 5) {
  			System.out.println("Recipe: Avocado Toast\n\nIngredients:" +
